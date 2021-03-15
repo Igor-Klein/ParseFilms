@@ -1,0 +1,35 @@
+{
+  "name": "ParseFilms",
+  "version": "1.0.0",
+  "description": "ParseFilms from https://rb7.ru/afisha/movies",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "parse": "bin/parse.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-Klein/ParseFilms.git"
+  },
+  "author": "Igor Klein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor-Klein/ParseFilms/issues"
+  },
+  "homepage": "https://github.com/Igor-Klein/ParseFilms#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "got": "^11.8.2",
+    "link": "^0.1.5",
+    "lodash": "^4.17.20",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
